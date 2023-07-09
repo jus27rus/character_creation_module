@@ -9,8 +9,8 @@ def attack(char_name, char_class):
         return (
             f'{char_name} нанёс урон противнику равный {5 + randint(5, 10)}')
     if char_class == 'healer':
-        return (
-            f'{char_name} нанёс урон противнику равный {5 + randint(-3, -1)}')
+        return (f'{char_name} нанёс урон противнику равный '
+                f'{5 + randint(-3, -1)}')
 
 
 def defence(char_name, char_class):
